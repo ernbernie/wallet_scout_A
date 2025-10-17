@@ -1,6 +1,6 @@
 # 🦀 WalletScout A Series - Rust Ownership Mastery Project
 
-> **A comprehensive exploration of Rust's ownership system through three distinct memory management strategies**
+> **An exploration of Rust's ownership system through three distinct memory management strategies**
 
 ## 🎯 **About the A Series**
 
