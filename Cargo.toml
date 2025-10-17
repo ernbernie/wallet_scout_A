@@ -1,0 +1,18 @@
+[workspace]
+members = [
+    "scout-core",
+    "scout-a1-own-it-all",
+    "scout-a2-borrow-everything",
+    "scout-a3-zero-copy"
+]
+
+resolver = "2"
+
+# Integration tests
+[[workspace.test]]
+name = "ownership_strategies_integration"
+path = "tests/ownership_strategies_integration.rs"
+
+[[workspace.test]]
+name = "performance_comparison"
+path = "tests/performance_comparison.rs"
